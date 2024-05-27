@@ -57,4 +57,4 @@ The project demonstrates the effectiveness of using machine learning, particular
 
 ## Author
 
-[Jay Parmar]
+Jay Parmar
