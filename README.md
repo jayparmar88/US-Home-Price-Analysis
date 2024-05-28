@@ -7,7 +7,7 @@ This project aims to build a data science model to analysis US home prices using
 ## Data Sources
 
 The project utilizes data from the Federal Reserve Economic Data (FRED) database, specifically the following datasets:
-- [Dataset Link]([https://fred.stlouisfed.org/series/CSUSHPISA](https://fred.stlouisfed.org/))
+[Dataset Link]((https://fred.stlouisfed.org/))
 
 ※  **Target Variable:**
 - **CSUSHPISA:** Case-Shiller U.S. National Home Price Index (Target Variable)
