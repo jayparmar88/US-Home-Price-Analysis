@@ -47,7 +47,7 @@ The project utilizes data from the Federal Reserve Economic Data (FRED) database
 ## Results
 
 - **Model Comparison:** Random Forest Regression consistently outperforms other models, achieving the lowest MSE and highest R-squared.
-- **Key Factors:** The most influential features in predicting home prices are:
+- **Key Factors:** The most influential features for home prices are:
     - MSPUS (Median Sales Price of Houses Sold)
     - TTLCONS (Total Construction Spending)
     - GDP (Gross Domestic Product)
@@ -55,7 +55,7 @@ The project utilizes data from the Federal Reserve Economic Data (FRED) database
 
 ## Conclusion
 
-The project demonstrates the effectiveness of using data science in analyzing and predicting US home prices. The analysis highlights the importance of economic growth, housing market activity, and demographic factors in driving home price trends.
+The project demonstrates the effectiveness of using data science in analyzing US home prices. The analysis highlights the importance of economic growth, housing market activity, and demographic factors in driving home price trends.
 
 ## Repository Structure
 
