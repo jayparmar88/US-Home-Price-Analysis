@@ -10,7 +10,7 @@ The project utilizes data from the Federal Reserve Economic Data (FRED) database
 
 > **Target Variable:**
 - **CSUSHPISA:** Case-Shiller U.S. National Home Price Index (Target Variable)
-- [CSUSHPISA](https://fred.stlouisfed.org/series/CSUSHPISA)
+- [Link](https://fred.stlouisfed.org/series/CSUSHPISA)
 
 > **Predictor Variables (Features):**
 - **HOUST:** New Privately-Owned Housing Units Started: Total Units
