@@ -8,10 +8,10 @@ This project aims to build a data science model to analysis US home prices using
 
 The project utilizes data from the Federal Reserve Economic Data (FRED) database, specifically the following datasets:
 
-> Target Variable:
+> **Target Variable:**
 - **CSUSHPISA:** Case-Shiller U.S. National Home Price Index (Target Variable)
 
-> Predictor Variables (Features):
+> **Predictor Variables (Features):**
 - **HOUST:** New Privately-Owned Housing Units Started: Total Units
 - **MSACSR:** Monthly Supply of New Houses in the United States
 - **PERMIT:** New Privately-Owned Housing Units Authorized in Permit-Issuing Places: Total Units
