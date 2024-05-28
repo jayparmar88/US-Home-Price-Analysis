@@ -8,7 +8,10 @@ This project aims to build a data science model to analysis US home prices using
 
 The project utilizes data from the Federal Reserve Economic Data (FRED) database, specifically the following datasets:
 
+* Target Variable:
 - **CSUSHPISA:** Case-Shiller U.S. National Home Price Index (Target Variable)
+
+* Predictor Variables (Features):
 - **HOUST:** New Privately-Owned Housing Units Started: Total Units
 - **MSACSR:** Monthly Supply of New Houses in the United States
 - **PERMIT:** New Privately-Owned Housing Units Authorized in Permit-Issuing Places: Total Units
@@ -28,13 +31,17 @@ The project utilizes data from the Federal Reserve Economic Data (FRED) database
     - Histograms are created to examine the distribution of each feature.
     - A correlation matrix is plotted to identify potential multicollinearity between features.
 4. **Feature Scaling:** The features are standardized using `StandardScaler` to ensure they have a mean of 0 and a standard deviation of 1.
-5. **Model Building and Evaluation:** The following regression models are trained and evaluated:
+5. **Model Building:** The following regression models are trained and evaluated:
     - Linear Regression
     - Elastic Net Regression
     - Decision Tree Regression
     - Random Forest Regression
-   Model performance is assessed using Mean Squared Error (MSE) and R-squared (R2). Scatter plots of actual vs. predicted home prices are generated for visual assessment.
-6. **Feature Importance Analysis:** For Decision Tree and Random Forest models, feature importance scores are calculated and analyzed to understand the relative influence of each feature on predictions.
+6. **Model Evaluation:** The models were compared based on their:
+    - Mean Squared Error (MSE)
+    - R-squared
+    - Actual vs. Predicted Plots: To visualize prediction accuracy.
+    - Feature Importance (for Tree-based models)
+    - Coefficient Interpretation (for Linear models)
 
 ## Results
 
@@ -47,14 +54,12 @@ The project utilizes data from the Federal Reserve Economic Data (FRED) database
 
 ## Conclusion
 
-The project demonstrates the effectiveness of using machine learning, particularly Random Forest Regression. The analysis highlights the importance of economic growth, housing market activity, and demographic factors in driving home price trends.
+The project demonstrates the effectiveness of using data science in analyzing and predicting US home prices. The analysis highlights the importance of economic growth, housing market activity, and demographic factors in driving home price trends.
 
 ## Repository Structure
 
-- `CSUSHPISA.csv`, `FEDFUNDS.csv`, `HOUST.csv`, `MSACSR.csv`, `PERMIT.csv`, `POPTHM.csv`, `UNRATE.csv`, `GDP.csv`, `TTLCONS.csv`, `MSPUS.csv`: Data files.
-- `US_home_price_analysis.ipynb`: Python script containing the data analysis and model building code.
 - `README.md`: This file.
+- `CSUSHPISA.csv`, `FEDFUNDS.csv`, `HOUST.csv`, `MSACSR.csv`, `PERMIT.csv`, `POPTHM.csv`, `UNRATE.csv`, `GDP.csv`, `TTLCONS.csv`, `MSPUS.csv`: Data files.
+- `US_home_price_analysis.ipynb`: Jupyter Notebook containing the Python code for data cleaning, EDA, model building, and evaluation.
 
-## Author
-
-Jay Parmar
+## Author : Jay Parmar
